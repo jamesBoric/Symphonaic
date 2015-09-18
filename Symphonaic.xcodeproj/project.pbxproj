@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BE179E01BABDA2700081D00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE179DF1BABDA2700081D00 /* AppDelegate.swift */; };
+		5BE179E21BABDA2700081D00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE179E11BABDA2700081D00 /* ViewController.swift */; };
+		5BE179E51BABDA2700081D00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BE179E31BABDA2700081D00 /* Main.storyboard */; };
+		5BE179E81BABDA2700081D00 /* Symphonaic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5BE179E61BABDA2700081D00 /* Symphonaic.xcdatamodeld */; };
+		5BE179EA1BABDA2700081D00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BE179E91BABDA2700081D00 /* Assets.xcassets */; };
+		5BE179ED1BABDA2700081D00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BE179EB1BABDA2700081D00 /* LaunchScreen.storyboard */; };
+		5BE179F81BABDA2800081D00 /* SymphonaicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE179F71BABDA2800081D00 /* SymphonaicTests.swift */; };
+		5BE17A031BABDA2800081D00 /* SymphonaicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE17A021BABDA2800081D00 /* SymphonaicUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BE179F41BABDA2800081D00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BE179D41BABDA2700081D00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BE179DB1BABDA2700081D00;
+			remoteInfo = Symphonaic;
+		};
+		5BE179FF1BABDA2800081D00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BE179D41BABDA2700081D00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BE179DB1BABDA2700081D00;
+			remoteInfo = Symphonaic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5BE179DC1BABDA2700081D00 /* Symphonaic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Symphonaic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BE179DF1BABDA2700081D00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5BE179E11BABDA2700081D00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5BE179E41BABDA2700081D00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BE179E71BABDA2700081D00 /* Symphonaic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Symphonaic.xcdatamodel; sourceTree = "<group>"; };
+		5BE179E91BABDA2700081D00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BE179EC1BABDA2700081D00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5BE179EE1BABDA2700081D00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BE179F31BABDA2800081D00 /* SymphonaicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SymphonaicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BE179F71BABDA2800081D00 /* SymphonaicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymphonaicTests.swift; sourceTree = "<group>"; };
+		5BE179F91BABDA2800081D00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BE179FE1BABDA2800081D00 /* SymphonaicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SymphonaicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BE17A021BABDA2800081D00 /* SymphonaicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymphonaicUITests.swift; sourceTree = "<group>"; };
+		5BE17A041BABDA2800081D00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BE179D91BABDA2700081D00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BE179F01BABDA2800081D00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BE179FB1BABDA2800081D00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BE179D31BABDA2700081D00 = {
+			isa = PBXGroup;
+			children = (
+				5BE179DE1BABDA2700081D00 /* Symphonaic */,
+				5BE179F61BABDA2800081D00 /* SymphonaicTests */,
+				5BE17A011BABDA2800081D00 /* SymphonaicUITests */,
+				5BE179DD1BABDA2700081D00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BE179DD1BABDA2700081D00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BE179DC1BABDA2700081D00 /* Symphonaic.app */,
+				5BE179F31BABDA2800081D00 /* SymphonaicTests.xctest */,
+				5BE179FE1BABDA2800081D00 /* SymphonaicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BE179DE1BABDA2700081D00 /* Symphonaic */ = {
+			isa = PBXGroup;
+			children = (
+				5BE179DF1BABDA2700081D00 /* AppDelegate.swift */,
+				5BE179E11BABDA2700081D00 /* ViewController.swift */,
+				5BE179E31BABDA2700081D00 /* Main.storyboard */,
+				5BE179E91BABDA2700081D00 /* Assets.xcassets */,
+				5BE179EB1BABDA2700081D00 /* LaunchScreen.storyboard */,
+				5BE179EE1BABDA2700081D00 /* Info.plist */,
+				5BE179E61BABDA2700081D00 /* Symphonaic.xcdatamodeld */,
+			);
+			path = Symphonaic;
+			sourceTree = "<group>";
+		};
+		5BE179F61BABDA2800081D00 /* SymphonaicTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BE179F71BABDA2800081D00 /* SymphonaicTests.swift */,
+				5BE179F91BABDA2800081D00 /* Info.plist */,
+			);
+			path = SymphonaicTests;
+			sourceTree = "<group>";
+		};
+		5BE17A011BABDA2800081D00 /* SymphonaicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5BE17A021BABDA2800081D00 /* SymphonaicUITests.swift */,
+				5BE17A041BABDA2800081D00 /* Info.plist */,
+			);
+			path = SymphonaicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BE179DB1BABDA2700081D00 /* Symphonaic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BE17A071BABDA2800081D00 /* Build configuration list for PBXNativeTarget "Symphonaic" */;
+			buildPhases = (
+				5BE179D81BABDA2700081D00 /* Sources */,
+				5BE179D91BABDA2700081D00 /* Frameworks */,
+				5BE179DA1BABDA2700081D00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Symphonaic;
+			productName = Symphonaic;
+			productReference = 5BE179DC1BABDA2700081D00 /* Symphonaic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BE179F21BABDA2800081D00 /* SymphonaicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BE17A0A1BABDA2800081D00 /* Build configuration list for PBXNativeTarget "SymphonaicTests" */;
+			buildPhases = (
+				5BE179EF1BABDA2800081D00 /* Sources */,
+				5BE179F01BABDA2800081D00 /* Frameworks */,
+				5BE179F11BABDA2800081D00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BE179F51BABDA2800081D00 /* PBXTargetDependency */,
+			);
+			name = SymphonaicTests;
+			productName = SymphonaicTests;
+			productReference = 5BE179F31BABDA2800081D00 /* SymphonaicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5BE179FD1BABDA2800081D00 /* SymphonaicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BE17A0D1BABDA2800081D00 /* Build configuration list for PBXNativeTarget "SymphonaicUITests" */;
+			buildPhases = (
+				5BE179FA1BABDA2800081D00 /* Sources */,
+				5BE179FB1BABDA2800081D00 /* Frameworks */,
+				5BE179FC1BABDA2800081D00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BE17A001BABDA2800081D00 /* PBXTargetDependency */,
+			);
+			name = SymphonaicUITests;
+			productName = SymphonaicUITests;
+			productReference = 5BE179FE1BABDA2800081D00 /* SymphonaicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BE179D41BABDA2700081D00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Ode To Code";
+				TargetAttributes = {
+					5BE179DB1BABDA2700081D00 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					5BE179F21BABDA2800081D00 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 5BE179DB1BABDA2700081D00;
+					};
+					5BE179FD1BABDA2800081D00 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 5BE179DB1BABDA2700081D00;
+					};
+				};
+			};
+			buildConfigurationList = 5BE179D71BABDA2700081D00 /* Build configuration list for PBXProject "Symphonaic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BE179D31BABDA2700081D00;
+			productRefGroup = 5BE179DD1BABDA2700081D00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BE179DB1BABDA2700081D00 /* Symphonaic */,
+				5BE179F21BABDA2800081D00 /* SymphonaicTests */,
+				5BE179FD1BABDA2800081D00 /* SymphonaicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BE179DA1BABDA2700081D00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE179ED1BABDA2700081D00 /* LaunchScreen.storyboard in Resources */,
+				5BE179EA1BABDA2700081D00 /* Assets.xcassets in Resources */,
+				5BE179E51BABDA2700081D00 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BE179F11BABDA2800081D00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BE179FC1BABDA2800081D00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BE179D81BABDA2700081D00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE179E21BABDA2700081D00 /* ViewController.swift in Sources */,
+				5BE179E81BABDA2700081D00 /* Symphonaic.xcdatamodeld in Sources */,
+				5BE179E01BABDA2700081D00 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BE179EF1BABDA2800081D00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE179F81BABDA2800081D00 /* SymphonaicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BE179FA1BABDA2800081D00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE17A031BABDA2800081D00 /* SymphonaicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BE179F51BABDA2800081D00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BE179DB1BABDA2700081D00 /* Symphonaic */;
+			targetProxy = 5BE179F41BABDA2800081D00 /* PBXContainerItemProxy */;
+		};
+		5BE17A001BABDA2800081D00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BE179DB1BABDA2700081D00 /* Symphonaic */;
+			targetProxy = 5BE179FF1BABDA2800081D00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5BE179E31BABDA2700081D00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BE179E41BABDA2700081D00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5BE179EB1BABDA2700081D00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BE179EC1BABDA2700081D00 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BE17A051BABDA2800081D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		5BE17A061BABDA2800081D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BE17A081BABDA2800081D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Symphonaic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ode-To-Code.Symphonaic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5BE17A091BABDA2800081D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Symphonaic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ode-To-Code.Symphonaic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5BE17A0B1BABDA2800081D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SymphonaicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ode-To-Code.SymphonaicTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Symphonaic.app/Symphonaic";
+			};
+			name = Debug;
+		};
+		5BE17A0C1BABDA2800081D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SymphonaicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ode-To-Code.SymphonaicTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Symphonaic.app/Symphonaic";
+			};
+			name = Release;
+		};
+		5BE17A0E1BABDA2800081D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SymphonaicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ode-To-Code.SymphonaicUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Symphonaic;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5BE17A0F1BABDA2800081D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SymphonaicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ode-To-Code.SymphonaicUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Symphonaic;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BE179D71BABDA2700081D00 /* Build configuration list for PBXProject "Symphonaic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BE17A051BABDA2800081D00 /* Debug */,
+				5BE17A061BABDA2800081D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BE17A071BABDA2800081D00 /* Build configuration list for PBXNativeTarget "Symphonaic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BE17A081BABDA2800081D00 /* Debug */,
+				5BE17A091BABDA2800081D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5BE17A0A1BABDA2800081D00 /* Build configuration list for PBXNativeTarget "SymphonaicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BE17A0B1BABDA2800081D00 /* Debug */,
+				5BE17A0C1BABDA2800081D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5BE17A0D1BABDA2800081D00 /* Build configuration list for PBXNativeTarget "SymphonaicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BE17A0E1BABDA2800081D00 /* Debug */,
+				5BE17A0F1BABDA2800081D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5BE179E61BABDA2700081D00 /* Symphonaic.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5BE179E71BABDA2700081D00 /* Symphonaic.xcdatamodel */,
+			);
+			currentVersion = 5BE179E71BABDA2700081D00 /* Symphonaic.xcdatamodel */;
+			path = Symphonaic.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5BE179D41BABDA2700081D00 /* Project object */;
+}
