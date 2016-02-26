@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Percussion</key>
+	<array>
+		<string>Mridangam</string>
+		<string>Piano</string>
+		<string>Xylophone</string>
+	</array>
+	<key>Brass</key>
+	<array>
+		<string>Trumpet</string>
+		<string>Trombone</string>
+	</array>
+	<key>String</key>
+	<array>
+		<string>Violin</string>
+		<string>Cello</string>
+	</array>
+	<key>Woodwind</key>
+	<array>
+		<string>Saxophone</string>
+		<string>Clarinet</string>
+		<string>Flute</string>
+	</array>
+</dict>
+</plist>

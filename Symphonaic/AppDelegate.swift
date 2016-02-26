@@ -1,10 +1,7 @@
-//
-//  AppDelegate.swift
-//  Symphonaic
-//
-//  Created by James Boric on 18/09/2015.
-//  Copyright © 2015 Ode To Code. All rights reserved.
-//
+//This work is submitted as part of the assessment for Year 10 IST.
+//This is all my own work. I have referenced any work used from other
+//sources and have not plagiarised the work of others.
+//(signed) James Boric
 
 import UIKit
 import CoreData
